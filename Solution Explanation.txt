@@ -1,0 +1,39 @@
+I have created the required app in PHP language and its compatiable with command line. The system on which you may run this app should have php installed and working. 
+
+To run the app 
+
+1) open bash terminal (if you are using Linux)
+
+Command is ditributed into three sections 
+
+2) Program interperator - filename - argument. In this case the command would be path to php bin file 
+
+/usr/bin/php index.php population.csv
+/usr/bin/php index.php population.json
+
+After running this above command the desired output would be displayed on the terminal i.e 
+
+Average siblings: 2 
+Favourite foods:
+- Pizza 	2656
+- Meatballs 	2302
+- Ice Cream 	1880
+Births per Month:
+- January   	4433
+- February   	3934
+- March   	4308
+- April   	4072
+- May   	4187
+- June   	4215
+- July   	3976
+- August   	4219
+- September   	3917
+- October   	4198
+- November   	4219
+- December   	4322
+
+
+If you intend to keep csv or json files to some other path then you need to give the exact path of the file. e.g
+
+/usr/bin/php index.php /path/to/population.csv
+/usr/bin/php index.php /path/to/population.json
